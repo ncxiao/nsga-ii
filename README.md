@@ -11,20 +11,27 @@ This repository includes a [notebook](NSGA-II.ipynb) that shows a Python impleme
 
 ## Usage
 
+We use an example problem called SCH in the original paper by Deb et al. to demonstrate how to use the nsga2 module. To use it, it is necessary to develop a new evaluator function since it is problem-specific. Here, we have one decision variable, $x$, that ranges from -4 to 4, and two objective functions defined as
+
+$f_1(x) = x^2$  
+$f_2(x) = (x-2)^2$
+
+And below is how we can apply nsga to this problem.
+
 ```
 >>> from nsga2 import *
->>> def evaluator(vars):
+>>> def evaluator(vars): # this should reflect the equations of the problem
 ...     # need 1 variable
 ...     x = vars[0]
 ...     f1 = x**2
 ...     f2 = (x-2)**2
 ...     return [f1, f2]
 ... 
->>> N = 100
->>> T = 10
->>> numvar = 1
->>> varlen = 10
->>> bounds = [[-4, 4]]
+>>> N = 100             # the number of solutions in a population
+>>> T = 10              # the number of generations
+>>> numvar = 1          # the number of decision variables in a binary string
+>>> varlen = 10         # the length of each variable in bits
+>>> bounds = [[-4, 4]]  # the bounds of each variable
 >>>
 >>> crossover_prob = 0.9
 >>> mutation_prob = 1/numvar/varlen
