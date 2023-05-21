@@ -5,6 +5,7 @@ This repository includes a [notebook](NSGA-II.ipynb) that shows a Python impleme
 ## Files
 
 - `README.md` this file.
+- `nsga-ii.ipynb` is the Jupyter notebook detailing how the algorithms are implemented.
 - `nsga2.py` the Python file that contains the implementation of both NSGA-II and a binary coded genetic algorithm.
 - `Figure_1.png` is a screenshot of running the application (see below).
 
