@@ -1,6 +1,6 @@
 # Multiobjective optimization using nondominated sorting-based genetic algorithm (NSGA-II)
 
-This repository includes a [notebook](NSGA-II.ipynb) that shows a Python implementation of [NSGA-II](https://ieeexplore.ieee.org/abstract/document/996017?casa_token=pEj5es5El6QAAAAA:viir5gQ55UmNLiGOWQSeV8daGZzZ_Ffwsp9g8rwA6p3X2i4nk4JGNn-PwLO4NZehpHy6G-Fy) developed by Deb et al in 2002. 
+This repository includes a [notebook](NSGA-II.ipynb) that shows a Python implementation of [NSGA-II](https://ieeexplore.ieee.org/abstract/document/996017?casa_token=pEj5es5El6QAAAAA:viir5gQ55UmNLiGOWQSeV8daGZzZ_Ffwsp9g8rwA6p3X2i4nk4JGNn-PwLO4NZehpHy6G-Fy) developed by Deb et al in 2002. The complete implementation is available in a Python module called nsga2.py. We show the use of this module below.
 
 ## Files
 
