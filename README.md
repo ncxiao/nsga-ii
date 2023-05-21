@@ -55,4 +55,5 @@ The following shows how to plot the results.
 ```
 
 Below is an example of the plot.
+
 ![](Figure_1.png)
