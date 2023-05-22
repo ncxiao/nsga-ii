@@ -16782,7 +16782,7 @@ class="
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Summary">Summary<a class="anchor-link" href="#Summary">&#182;</a></h2><p>We have shown how to implement the non-dominated sorting algorithm (NSGA) and the binary coded genetic algorithm, and demonstrated how they can be used to solve a few example of multiobjective optimization problems. The visualizations of these application clearly suggest the effectiveness of both algorithms, where we can see how solutions in each generation move &quot;across&quot; the solution space from their random positions in the space toward the Pareto front that is optimal.</p>
-<p>The above code are stored in a separate Python file called nsga2.py and is ready to use. Here is a example of how to use it using the example problem called SCH (as used in the Doodle section):</p>
+<p>The code for NSGA-II (along with the code for the binary coded GA) is stored in a separate Python module called nsga2.py and is ready to use. Here is a example of how to use it using the example problem called SCH (as used in the Doodle section):</p>
 <div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">nsga2</span> <span class="kn">import</span> <span class="o">*</span>
 
 <span class="k">def</span> <span class="nf">evaluator</span><span class="p">(</span><span class="nb">vars</span><span class="p">):</span>
