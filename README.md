@@ -48,7 +48,7 @@ The following shows how to plot the results.
 >>> for i in P['10K random']:
 ...     i.evaluate()
 ... 
->>> toplot = ['10K random', 0, T//30, 2*T//30, T]
+>>> toplot = ['10K random', 0, T//3, 2*T//3, T]
 >>> for i in toplot:
 ...     x1 = [(p.obj[0], p.obj[1]) for p in P[i]]
 ...     x1.sort()
